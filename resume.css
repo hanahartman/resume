@@ -1,0 +1,26 @@
+/*resume.css*/
+
+body {background-color: ffffff;}
+
+.title {
+	text-align: center;
+}
+
+.content {
+	float:left;
+	width:60%;
+	margin:1%;
+	padding:0;
+}
+
+.one {
+}
+
+.when {
+	float:right;
+	width:15%;
+	margin:1%;
+	padding:0;
+}
+
+/*hddm*/
