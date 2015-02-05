@@ -4,6 +4,7 @@ body {
 	background-image: url(background.png);
 	background-attachment: fixed;
 	background-size: 100%;
+	color: #404040;
 
 }
 
@@ -14,8 +15,12 @@ body {
 	margin-top: 20px;
 	margin-bottom:20px;
 	text-align: center;	
-	width: 300px;
-	padding: 3px 3px 20px 3px;
+	width: 25%;
+	padding: 3px 3px 25px 3px;
+	border: 1px solid #e8e8e8;
+}
+.title h4 {
+	color: #585858;
 }
 
 h1 {
@@ -31,15 +36,18 @@ h2{
 h3{
 	margin-bottom: 1px;
 }
-
+.sub {
+	display: inline;
+}
+h4 span {
+	font-weight: normal;
+	color: #585858;
+}
 h4 {
 	font-style: italic;
 }
 
-span {
-	display: inline;
-	font-style: normal;
-}
+
 
 p, h4{
 	margin-top: 1px;
@@ -56,9 +64,10 @@ ul{
 	margin-right:auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	padding: 25px;
-	background-color: ffffff;
-	width: 800px;
+	padding: 10px 25px 25px 25px;
+	background-color: #ffffff;
+	width: 60%;
+	border: 1px solid #e8e8e8;
 }
 
 hr{
