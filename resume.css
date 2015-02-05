@@ -4,7 +4,6 @@ body {
 	background-image: url(background.png);
 	background-attachment: fixed;
 	background-size: 100%;
-	font-family: sans-serif;
 
 }
 
@@ -18,8 +17,15 @@ body {
 	width: 300px;
 	padding: 3px 3px 20px 3px;
 }
+
+h1 {
+	font-family: "Garamond", serif;
+	font-variant: small-caps;
+}
+
 h2{
 	text-decoration: underline;
+	font-variant: small-caps;
 }
 
 h3{
@@ -30,14 +36,19 @@ h4 {
 	font-style: italic;
 }
 
+span {
+	display: inline;
+	font-style: normal;
+}
+
 p, h4{
 	margin-top: 1px;
 	margin-bottom: 1px;
 }
 
-li{
+ul{
 	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 15px;
 }
 
 .content{
@@ -49,6 +60,13 @@ li{
 	background-color: ffffff;
 	width: 800px;
 }
+
+hr{
+	width: 50%;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
 
 
 /*hddm*/
